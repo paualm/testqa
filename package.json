@@ -1,0 +1,29 @@
+{
+  "name": "qa-automation",
+  "version": "2.0.0",
+  "description": "QA ",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "paula almenar",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "cypress": "^12.17.4",
+    "cypress-plugin-api": "^2.11.0",
+    "esbuild": "latest",
+    "multiple-cucumber-html-reporter": "latest",
+    "oracledb": "latest"
+  },
+  "@badeball/cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true
+    }
+  }
+}
